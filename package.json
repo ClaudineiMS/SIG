@@ -1,0 +1,18 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.64.2",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "chart.js": "^4.3.3",
+    "ol": "latest"
+  }
+}

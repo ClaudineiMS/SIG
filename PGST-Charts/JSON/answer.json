@@ -1,0 +1,277 @@
+{
+    "items": [
+        {
+            "title": "Map",
+            "type": "map",
+            "background": "bing",
+            "data": [
+                {
+                    "title": "\u00c1rea da Busca",
+                    "label": "area_busca",
+                    "data": {
+                        "type": "FeatureCollection",
+                        "features": [
+                            {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Polygon",
+                                    "coordinates": [
+                                        [
+                                            [
+                                                -64.968394437421,
+                                                -3.2889538558786313
+                                            ],
+                                            [
+                                                -58.596713021491794,
+                                                -12.846475979772435
+                                            ],
+                                            [
+                                                -54.27307206068269,
+                                                -3.2889538558786313
+                                            ],
+                                            [
+                                                -64.968394437421,
+                                                -3.2889538558786313
+                                            ]
+                                        ]
+                                    ]
+                                },
+                                "properties": "None"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "\u00c1rea da Busca tewste",
+                    "label": "area_busca_1",
+                    "data": {
+                        "type": "FeatureCollection",
+                        "features": [
+                            {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Polygon",
+                                    "coordinates": [
+                                        [
+                                            [
+                                                -64.968394437421,
+                                                -3.2889538558786313
+                                            ],
+                                            [
+                                                -58.596713021491794,
+                                                -12.846475979772435
+                                            ],
+                                            [
+                                                -54.27307206068269,
+                                                -3.2889538558786313
+                                            ],
+                                            [
+                                                -64.968394437421,
+                                                -3.2889538558786313
+                                            ]
+                                        ]
+                                    ]
+                                },
+                                "properties": "None"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Tabela Teste 1",
+            "type": "table",
+            "description": "Tabela Teste Descri\u00e7\u00e3o",
+            "data": {
+                "head": [
+                    "Nome",
+                    "idade"
+                ],
+                "data": [
+                    [
+                        "Paulo",
+                        "21"
+                    ],
+                    [
+                        "Jo\u00e3o",
+                        "21"
+                    ],
+                    [
+                        "Pedro",
+                        "14"
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Chart 03",
+            "type": "chartjs",
+            "model": "bar",
+            "layout": "default",
+            "labels": [
+                "Reserva Legal",
+                "Mine\u00e1rio",
+                "Teste",
+                "Camada 4"
+            ],
+            "scale": "",
+            "dataset": [
+                {
+                    "data": [
+                        0.20223990090623914,
+                        0.502321491555879,
+                        0.502321491555879,
+                        0.502321491555879
+                    ],
+                    "label": "Teste 01",
+                    "color": "blue"
+                }
+            ]
+        },
+        {
+            "title": "Chart 02",
+            "type": "chartjs",
+            "model": "polarArea",
+            "layout": "default",
+            "labels": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "scale": "",
+            "dataset": [
+                {
+                    "data": [
+                        0.20223990090623914,
+                        0.502321491555879,
+                        0.502321491555879,
+                        0.502321491555879
+                    ],
+                    "label": "Teste 02",
+                    "color": "blue"
+                }
+            ]
+        },
+        {
+            "title": "Chart 03",
+            "type": "chartjs",
+            "model": "line",
+            "layout": "default",
+            "labels": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "scale": "",
+            "dataset": [
+                {
+                    "data": [
+                        0.20223990090623914,
+                        0.502321491555879,
+                        0.502321491555879,
+                        0.502321491555879
+                    ],
+                    "label": "Teste 03",
+                    "color": "red"
+                }
+            ]
+        },
+        {
+            "title": "Chart 04",
+            "type": "chartjs",
+            "model": "pie",
+            "layout": "default",
+            "labels": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "scale": "",
+            "dataset": [
+                {
+                    "data": [
+                        0.20223990090623914,
+                        0.502321491555879,
+                        0.502321491555879,
+                        0.502321491555879
+                    ],
+                    "label": "Teste 04",
+                    "color": "blue"
+                }
+            ]
+        },
+        {
+            "title": "Teste",
+            "type": "chartjs",
+            "model": "pie",
+            "layout": "default",
+            "labels": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "scale": "",
+            "dataset": [
+                {
+                    "data": [
+                        0.20223990090623914,
+                        0.502321491555879,
+                        0.502321491555879,
+                        0.502321491555879
+                    ],
+                    "label": "Teste 04",
+                    "color": "blue"
+                }
+            ]
+        }
+    ],
+    "messages": [
+        {
+            "type": "info",
+            "code": "W001",
+            "title": "Mensagem 001",
+            "message": "Mensagem 001"
+        }
+    ],
+    "files": [],
+    "chain": {
+        "report": [
+            {
+                "description": "Relat\u00f3rio",
+                "type": "pdf",
+                "template_id": "2",
+                "file": "report.pdf"
+            },
+            {
+                "description": "KML da Localiza\u00e7\u00e3o",
+                "type": "kml",
+                "layer_label": "localizacao",
+                "file": "area.kml"
+            },
+            {
+                "description": "KML da Localiza\u00e7\u00e3o",
+                "type": "exceeded_size",
+                "keep_layer": "localizacao",
+                "limit": "0",
+                "file": "data.zip"
+            }
+        ]
+    },
+    "conf": {
+        "question_id": 1,
+        "parameters": null,
+        "answer_request_id": null,
+        "user_info": {
+            "user": "dev",
+            "name": "Nome do Usu\u00e1rio",
+            "email": "zetta@ufla.br",
+            "ip": "127.0.0.1"
+        }
+    },
+    "date": "19-07-2023 09:17:05"
+}
