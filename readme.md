@@ -1,6 +1,6 @@
 # SIG
 
-Após clonar o repositório para rodar a plicação navegue até o diretório SIG
+Após clonar o repositório para rodar a aplicação navegue até o diretório SIG
 
 execute
 
