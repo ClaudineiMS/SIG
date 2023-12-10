@@ -24,22 +24,22 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="preload" href="/PGST-Charts/Menu/css/style.css" as="style">
-  <!--<link rel="preload" href="/PGST-Charts/Menu/js/script.js" as="script">-->
-  <link rel="stylesheet" href="/PGST-Charts/Menu/css/style.css">
-  <link rel="stylesheet" href="/PGST-Charts/Mapa/css/Mapa.css" as="style">
-  <script type="text/javascript" src="/PGST-Charts/Tabela/js/Render/Tabela.js">
+  <link rel="preload" href="/Charts/Menu/css/style.css" as="style">
+  <!--<link rel="preload" href="/Charts/Menu/js/script.js" as="script">-->
+  <link rel="stylesheet" href="/Charts/Menu/css/style.css">
+  <link rel="stylesheet" href="/Charts/Mapa/css/Mapa.css" as="style">
+  <script type="text/javascript" src="/Charts/Tabela/js/Render/Tabela.js">
   </script>
-  <script type="text/javascript" src="/PGST-Charts/Tabela/js/Triggers/Pesquisa.js"></script>
-  <script type="text/javascript" src="/PGST-Charts/Tabela/js/Actions/Dados.js">
+  <script type="text/javascript" src="/Charts/Tabela/js/Triggers/Pesquisa.js"></script>
+  <script type="text/javascript" src="/Charts/Tabela/js/Actions/Dados.js">
   </script>
-  <script type="text/javascript" src="/PGST-Charts/Tabela/js/Triggers/click.js"></script>
-  <link rel="stylesheet" href="/PGST-Charts/Tabela/css/Modal.css" />
-  <script src="/PGST-Charts/Tabela/js/Triggers/Modal.js" defer></script>
-  <link rel="stylesheet" type="text/css" href="/PGST-Charts/Tabela/css/Tabela.css" media="screen">
-  <!--<link rel="stylesheet" href="/PGST-Charts/Graficos/css/styles.css" />-->
-  <link rel="stylesheet" href="/PGST-Charts/Hover/css/hover.css" />
-  <script src="/PGST-Charts/Hover/js/Triggers/Open.js"></script>
+  <script type="text/javascript" src="/Charts/Tabela/js/Triggers/click.js"></script>
+  <link rel="stylesheet" href="/Charts/Tabela/css/Modal.css" />
+  <script src="/Charts/Tabela/js/Triggers/Modal.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="/Charts/Tabela/css/Tabela.css" media="screen">
+  <!--<link rel="stylesheet" href="/Charts/Graficos/css/styles.css" />-->
+  <link rel="stylesheet" href="/Charts/Hover/css/hover.css" />
+  <script src="/Charts/Hover/js/Triggers/Open.js"></script>
   <title>Map</title>
 
 </head>
@@ -80,7 +80,7 @@
               <p class="result"></p>
               <script>
                 function InserirTabela() {
-                  $(".result").append('<object id="componente" class="atribute-table" type="text/html" data="PGST-Charts/Tabela/html/Tabela.html"></object>');
+                  $(".result").append('<object id="componente" class="atribute-table" type="text/html" data="Charts/Tabela/html/Tabela.html"></object>');
                 }
                 function RemoverTabela() {
                   var temp = document.getElementById('componente');

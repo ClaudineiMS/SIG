@@ -1,5 +1,5 @@
 function Dados(arr) {  
-    const base = "../../../PGST-Charts/JSON/Terras_Ind.geojson"
+    const base = "../../../Charts/JSON/Terras_Ind.geojson"
     const api = axios.create({
         baseURL: base,
     });

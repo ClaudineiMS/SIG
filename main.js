@@ -81,7 +81,7 @@ const style = new Style({
 
 const vector_2 = new VectorLayer({
   source: new VectorSource({
-    url:'./PGST-Charts/JSON/result.geojson',
+    url:'./Charts/JSON/result.geojson',
     format: new GeoJSON(),
   }),
   stroke: new Stroke({
@@ -96,10 +96,10 @@ const vector_2 = new VectorLayer({
 const vector = new VectorLayer({
   source: new VectorSource({
     //url: 'https://openlayers.org/data/vector/ecoregions.json',
-    //url:'./PGST-Charts/JSON/Unidades_Federativas.geojson',
-    //url:'./PGST-Charts/JSON/countries.geojson',
-    url:'./PGST-Charts/JSON/Terras_Ind.geojson',
-    //url:'./PGST-Charts/JSON/result.geojson',
+    //url:'./Charts/JSON/Unidades_Federativas.geojson',
+    //url:'./Charts/JSON/countries.geojson',
+    url:'./Charts/JSON/Terras_Ind.geojson',
+    //url:'./Charts/JSON/result.geojson',
     format: new GeoJSON(),
   }),
   //background: 'white',
